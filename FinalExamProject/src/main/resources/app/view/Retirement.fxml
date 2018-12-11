@@ -11,7 +11,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pkgApp.controller.RetirementController">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pkgApp.controller.RetirementController">
    <bottom>
       <HBox prefHeight="35.0" prefWidth="600.0" BorderPane.alignment="CENTER" />
    </bottom>
@@ -73,6 +73,13 @@
                </GridPane.margin>
             </HBox>
             <TextField fx:id="txtYearsToWork" prefHeight="25.0" prefWidth="62.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <TextField fx:id="txtAnnualReturn" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <TextField fx:id="txtYearsRetired" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <TextField fx:id="txtRetiredReturn" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+            <TextField fx:id="txtRequiredIncome" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+            <TextField fx:id="txtMonthlySSI" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+            <Label fx:id="txtMonthlySave" text="0.00" GridPane.columnIndex="1" />
+            <Label fx:id="txtTotalSave" text="0.00" GridPane.columnIndex="1" GridPane.rowIndex="4" />
          </children>
       </GridPane>
    </center>
